@@ -9,6 +9,7 @@ import os
 from tensorflow.keras import layers
 from tensorflow.keras.models import Sequential
 
+
 class RBMLayer(Layer):
     def __init__(self, units, **kwargs):
         super(RBMLayer, self).__init__(**kwargs)
